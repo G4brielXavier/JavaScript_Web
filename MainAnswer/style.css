@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,100..800;1,300..800&family=Share+Tech+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Tahoma, sans-serif;
+    background-color: rgb(0, 0, 0, 0.05);
+}
+
+.title {
+    font-weight: 100;
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 10px;
+}
+
+.tips_container_closed {
+    display: none;
+}
+
+.tips_container {
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    gap: 40px;
+}
+
+.block {
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 10px rgb(0, 0, 0, 0.1);
+}
+
+.title_block {
+    z-index: 0;
+    font-weight: 100;
+    text-align: center;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.btn_open {
+    z-index: 0;
+    font-weight: 500;
+    background-color: navy;
+    color: #fff;
+    padding: 20px 30px;
+    width: 109px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    transition: 0.2s;
+    font-size: 16px;
+    text-align: center;
+}
+.btn_open:hover {
+    background-color: rgb(0, 0, 39);
+    transform: scale(1.1);
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 5px 3px rgb(0, 0, 39, 0.4);
+    cursor: pointer;
+}
+
+.closed_modal {
+    display: none;
+}
+
+.opened_modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 12px;
+    width: 500px;
+    padding: 20px;
+    gap: 20px;
+    margin: 150px auto;
+    box-shadow: 0px 0px 10px 5px rgb(0, 0, 0, 0.1);
+}
+
+.title_modal {
+    font-weight: 100;
+}
+
+.respost {
+    text-align: center;
+    font-size: 12px;
+}
+
+.close_modal {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    background-color: navy;
+    color: #fff;
+    transition: 0.2s;
+    margin-top: 10px;
+}
+
+.close_modal:hover {
+    background-color: rgb(0, 0, 71);
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 6px 2px rgb(0, 0, 39, 0.5);
+}
