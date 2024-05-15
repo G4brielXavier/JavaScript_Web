@@ -7,16 +7,16 @@ let description_text = document.querySelector(".description_client")
 
 
 client = 0
-if (client == 0) { set_client("Gabriel Xavier", "Programador", "Eu sou programador JavaScript, Ruby, Python, C++ e Csharp, Desenvolvedor Front-end e Back-end de sites e aplicativos.") }
+if (client == 0) { set_client("Carlos Jorge", "Programador", "lorem30") }
 
 
 btn_left.addEventListener("click", () => {
     if (client < 3)
     {
         client += 1
-        if (client == 0) { set_client("Gabriel Xavier", "Programador", "Eu sou programador JavaScript, Ruby, Python, C++ e Csharp, Desenvolvedor Front-end e Back-end de sites e aplicativos.") }
-        if (client == 1) { set_client("Gabriely Xavier", "Veterinaria", "Eu sou formada em veterinario com 10 anos de experiencia na area, Eu amo animais.") }
-        if (client == 2) { set_client("Jonathan Xavier", "GD Player Profissional", "Eu sou Jogador profissional de geometry dash, Com maior numero de vitoria em final de campeonato mundial.") }
+        if (client == 0) { set_client("Carlos Jorge", "Programador", "lorem30") }
+        if (client == 1) { set_client("Sara Avino", "Veterinaria", "lorem50") }
+        if (client == 2) { set_client("Manoel Costa", "Motorista", "lorem40") }
     }
 })
 
@@ -24,9 +24,9 @@ btn_right.addEventListener("click", () => {
     if (client > 0)
     {
         client -= 1
-        if (client == 0) { set_client("Gabriel Xavier", "Programador", "Eu sou programador JavaScript, Ruby, Python, C++ e Csharp, Desenvolvedor Front-end e Back-end de sites e aplicativos.") }
-        if (client == 1) { set_client("Gabriely Xavier", "Veterinaria", "Eu sou formada em veterinario com 10 anos de experiencia na area, Eu amo animais.") }
-        if (client == 2) { set_client("Jonathan Xavier", "GD Player Profissional", "Eu sou Jogador profissional de geometry dash, Com maior numero de vitoria em final de campeonato mundial.") }
+        if (client == 0) { set_client("Carlos Jorge", "Programador", "lorem30") }
+        if (client == 1) { set_client("Sara Avino", "Veterinaria", "lorem50") }
+        if (client == 2) { set_client("Manoel Costa", "Motorista", "lorem40") }
     }
 })
 
