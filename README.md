@@ -1,1 +1,2 @@
-Estou começando aqui no GitHub, ainda não tenho muito conhecimento com ele. Vou colocar meus projetos web feitos com JS aqui neste repositorio.  
+<h2>Counter</h2>
+<p>Um Simples contador de numeros, mais bonito e chamativo, sua estilização é 100% com CSS</p>
